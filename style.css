@@ -1,0 +1,55 @@
+ h1 {
+    white-space: nowrap;
+    color:hsl(352, 100%, 58%);
+    margin:25px;
+    padding-block: 17px;
+     
+
+    } 
+* {
+    
+background-color: rgb(214, 188, 37);
+border: solid;
+border-top-color: rgb(186, 49, 190); 
+}
+.header{
+     background-color: teal; 
+     display: flex; 
+     justify-content: space-between; 
+     font-family: cursive;
+     font-size: 17px;
+     font-variant: small-caps;
+    }
+.grid{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    }
+.footer{ 
+    display: flex; 
+    justify-content: flex-end; }
+
+a:link{
+    color:blueviolet;
+    margin:53px;
+    padding-block-end: 70px;
+}
+a:visited{
+    color:brown;
+    margin-right: 50px;
+    padding:50px;
+}
+.item{
+    position:relative;
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,50%);
+}
+.item:hover p{
+    opacity: 0.33;
+}
+
+
